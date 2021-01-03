@@ -18,7 +18,7 @@ class Customers extends Component {
   render() {
     return (
       <div>
-        <h2>Customers</h2>
+        <h2>Linked with gitHub & Netlify</h2>
         <ul>
         {this.state.customers.map(customer => 
           <li key={customer.id}>{customer.firstName} {customer.lastName}</li>
